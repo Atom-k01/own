@@ -107,6 +107,11 @@ DOMAIN,embyclub.com
 DOMAIN,aws-hk.embyclub.com
 DOMAIN,aga-jp.embyclub.com
 DOMAIN,azsgp.embyclub.com
+DOMAIN,az-hk.embyclub.com
 
 # > 流媒体自建影业服务器
 DOMAIN,emby.180828.xyz
+
+# > 流媒体佛系公益影业服务器
+DOMAIN,emby2021.kozow.com
+
