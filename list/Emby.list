@@ -108,3 +108,8 @@ DOMAIN,embyjp.180828.xyz
 # > 流媒体佛系公益影业服务器
 DOMAIN,emby2021.kozow.com
 
+# > 流媒体Misty影业服务器
+DOMAIN,emby.ssky.me
+DOMAIN,emby-cf.ssky.me
+IP-CIDR,168.138.196.225,no-resolve
+IP-CIDR,40.83.99.165,no-resolve
