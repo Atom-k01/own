@@ -95,7 +95,7 @@ HOST-SUFFIX,public.kyarucloud.moe,Emby
 #HOST-SUFFIX,synemby.filmind.club,Emby
 
 # > 流媒体猫熊影业服务器
-HOST-SUFFIX,embyclub.com
+HOST-SUFFIX,embyclub.com,Emby
 HOST-SUFFIX,aws-hk.embyclub.com,Emby
 HOST-SUFFIX,aga-jp.embyclub.com,Emby
 HOST-SUFFIX,azsgp.embyclub.com,Emby
