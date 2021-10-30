@@ -111,5 +111,5 @@ HOST-SUFFIX,emby2021.kozow.com,Emby
 #> 流媒体Misty影业服务器
 HOST-SUFFIX,emby.ssky.me,Emby
 HOST-SUFFIX,emby-cf.ssky.me,Emby
-IP-CIDR,168.138.196.225,no-resolve
-IP-CIDR,40.83.99.165,no-resolve
+IP-CIDR,168.138.196.225,Emby
+IP-CIDR,40.83.99.165,Emby
