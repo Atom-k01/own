@@ -35,13 +35,13 @@ DOMAIN,emby.otakudrive.life
 DOMAIN,emby2.otakudrive.life 
 
 # > 流媒体emby-jmsooo体验服
-DOMAIN,hkzf.908600.xyz
 DOMAIN,cf1.jmsooo.com
 DOMAIN,us.jmsooo.com
 DOMAIN,us2.jmsooo.com
 DOMAIN,us3.jmsooo.com
 DOMAIN,sg.jmsooo.com
 DOMAIN,ru.jmsooo.com
+DOMAIN,ru2.jmsooo.com
 
 # > 流媒体pornemby服务器
 DOMAIN,vip.pornemby.club
@@ -99,8 +99,6 @@ DOMAIN,public.kyarucloud.moe
 
 # > 流媒体猫熊影业服务器
 DOMAIN,embyclub.com
-DOMAIN,aws-hk.embyclub.com
-DOMAIN,aga-jp.embyclub.com
 DOMAIN,azsgp.embyclub.com
 DOMAIN,az-hk.embyclub.com
 
@@ -113,4 +111,4 @@ DOMAIN,emby2021.kozow.com
 
 # > 流媒体Misty影业服务器
 DOMAIN,emby.ssky.me
-DOMAIN,emby-cf.ssky.me
+DOMAIN,emby-jp.ssky.me
