@@ -6,3 +6,5 @@ DOMAIN-SUFFIX,wzrb.net
 #爱奇艺
 DOMAIN-SUFFIX,m.iqiyi.com
 DOMAIN-SUFFIX,so.iqiyi.com
+#自建emby
+DOMAIN-SUFFIX,embyplus.club
