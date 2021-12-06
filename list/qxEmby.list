@@ -102,10 +102,6 @@ HOST-SUFFIX,embyclub.com,Emby
 HOST-SUFFIX,azsgp.embyclub.com,Emby
 HOST-SUFFIX,az-hk.embyclub.com,Emby
 
-# > 流媒体自建影业服务器
-HOST-SUFFIX,embykr.180828.xyz,Emby
-HOST-SUFFIX,embyjp.180828.xyz,Emby
-
 # > 流媒体佛系公益影业服务器
 HOST-SUFFIX,emby2021.kozow.com,Emby
 
