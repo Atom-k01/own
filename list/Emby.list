@@ -102,14 +102,12 @@ DOMAIN,embyclub.com
 DOMAIN,azsgp.embyclub.com
 DOMAIN,az-hk.embyclub.com
 
-# > 流媒体自建影业服务器
-DOMAIN,embykr.180828.xyz
-DOMAIN,embyjp.180828.xyz
-DOMAIN,embyplus.club
-
 # > 流媒体佛系公益影业服务器
 DOMAIN,emby2021.kozow.com
 
 # > 流媒体Misty影业服务器
 DOMAIN,emby.ssky.me
 DOMAIN,emby-jp.ssky.me
+DOMAIN,aaa.ax 
+DOMAIN,emby-ru.ssky.me 
+DOMAIN,emby-us.ssky.me 
