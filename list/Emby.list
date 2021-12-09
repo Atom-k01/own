@@ -103,3 +103,6 @@ DOMAIN,emby-jp.ssky.me
 DOMAIN,aaa.ax 
 DOMAIN,emby-ru.ssky.me 
 DOMAIN,emby-us.ssky.me 
+
+# > 自建
+DOMAIN,embyplus.club
