@@ -119,3 +119,6 @@ HOST-SUFFIX,bs.embyplus.club,Emby
 HOST-SUFFIX,ok.embyplus.club,Emby
 HOST-SUFFIX,emby.gfw.cm,Emby
 USER-AGENT,Emby,Emby
+
+# > 卡戎
+HOST-SUFFIX,play.charontv.com,Emby
