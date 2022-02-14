@@ -105,7 +105,12 @@ DOMAIN,emby-ru.ssky.me
 DOMAIN,emby-us.ssky.me 
 
 # > 自建
-DOMAIN,embyplus.club
+DOMAIN,sp.embyplus.club
+DOMAIN,ku.embyplus.club
+DOMAIN,bs.embyplus.club
+DOMAIN,ok.embyplus.club
+DOMAIN,cf.embyplus.club
+DOMAIN,emby.gfw.cm
 
 # > 卡戎
 DOMAIN,play.charontv.com 
