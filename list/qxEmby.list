@@ -113,13 +113,13 @@ HOST-SUFFIX,emby-ru.ssky,Emby
 HOST-SUFFIX,emby-us,Emby
 
 # > 自建
-DOMAIN,sp.embyplus.club
-DOMAIN,usk.emby.cc
-DOMAIN,usb.emby.cc
-DOMAIN,uso.emby.cc
-DOMAIN,cf.embyplus.club
-DOMAIN,look.embyplus.club
-DOMAIN,emby.gfw.cm
+HOST-SUFFIX,sp.embyplus.club,Emby
+HOST-SUFFIX,usk.emby.cc,Emby
+HOST-SUFFIX,usb.emby.cc,Emby
+HOST-SUFFIX,uso.emby.cc,Emby
+HOST-SUFFIX,cf.embyplus.club,Emby
+HOST-SUFFIX,look.embyplus.club,Emby
+HOST-SUFFIX,emby.gfw.cm,Emby
 USER-AGENT,Emby,Emby
 
 # > 卡戎
