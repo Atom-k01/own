@@ -114,9 +114,8 @@ HOST-SUFFIX,emby-us,Emby
 
 # > 自建
 HOST-SUFFIX,sp.embyplus.club,Emby
-HOST-SUFFIX,usk.emby.cc,Emby
-HOST-SUFFIX,usb.emby.cc,Emby
-HOST-SUFFIX,uso.emby.cc,Emby
+HOST-SUFFIX,cc.emby.cc,Emby
+HOST-SUFFIX,cm.emby.studio,Emby
 HOST-SUFFIX,cf.embyplus.club,Emby
 HOST-SUFFIX,look.embyplus.club,Emby
 HOST-SUFFIX,emby.gfw.cm,Emby
