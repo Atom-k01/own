@@ -425,3 +425,4 @@ DOMAIN-SUFFIX,yammerusercontent.com,Microsoft
 USER-AGENT,Microsoft*,Microsoft
 USER-AGENT,OneDrive*,Microsoft
 USER-AGENT,OneDriveiOSApp*,Microsoft
+IP-CIDR,192.168.1.1/32,DIRECT
