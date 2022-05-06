@@ -426,4 +426,4 @@ USER-AGENT,Microsoft*
 USER-AGENT,OneDrive*
 USER-AGENT,OneDriveiOSApp*
 IP-CIDR,192.168.1.1/32,DIRECT
-DOMAIN,gtm-cn-nif24dwvi1j.gtm-a1b6.com
+DOMAIN-SUFFIX,gtm-cn-nif24dwvi1j.gtm-a1b6.com
