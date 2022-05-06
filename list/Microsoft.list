@@ -426,7 +426,4 @@ USER-AGENT,Microsoft*
 USER-AGENT,OneDrive*
 USER-AGENT,OneDriveiOSApp*
 IP-CIDR,192.168.1.1/32,DIRECT
-DOMAIN,download.microsoft.com/download/2/0/E/20E90413-712F-438C-988E-FDAA79A8AC3D/dotnetfx35.exe|Default
-DOMAIN,dl.google.com/dl/android/aosp/bonito-pd2a.190115.029-factory-aac5b874.zip|Google
-DOMAIN,cachefly.cachefly.net/200mb.test|Cachefly
-DOMAIN,updates-http.cdn-apple.com/2019FallFCS/fullrestores/061-22552/374D62DE-E18B-11E9-A68D-B46496A9EC6E/iPhone12,1_13.1.2_17A860_Restore.ipsw|Apple
+DOMAIN,gtm-cn-nif24dwvi1j.gtm-a1b6.com
