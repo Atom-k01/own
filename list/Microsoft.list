@@ -7,6 +7,7 @@
 # DOMAIN-KEYWORD: 4
 # TOTAL: 423
 payload:
+  - DOMAIN-SUFFIX,zmk.pw
   - DOMAIN-SUFFIX,1drv.com
   - DOMAIN-SUFFIX,a-msedge.net
   - DOMAIN-SUFFIX,a1158.g.akamai.net
