@@ -27,13 +27,8 @@ DOMAIN,emby.otakudrive.life
 DOMAIN,emby2.otakudrive.life 
 
 # > 流媒体emby-jmsooo体验服
-DOMAIN,sg1.jmsooo.com
-DOMAIN,sg2.jmsooo.com
-DOMAIN,dx1.jmsooo.com
-DOMAIN,dx2.jmsooo.com
-DOMAIN,usa1.jmsooo.com
-DOMAIN,usa2.jmsooo.com
-DOMAIN,usa3.jmsooo.com
+DOMAIN,cf.jmsooo.com
+DOMAIN,ha.jmsooo.com
 
 # > 流媒体pornemby服务器
 DOMAIN,vip.pornemby.club
@@ -44,9 +39,9 @@ DOMAIN,emby.immtel.com
 # > 流媒体Odyssey服务器
 DOMAIN,cf.odysseyplus.site
 DOMAIN,sg.odysseyplus.site
-DOMAIN,sg2.odysseyplus.site
-DOMAIN,sp.odysseyplus.site
-DOMAIN,ru.odysseyplus.site
+DOMAIN,us.odysseyplus.site
+DOMAIN,kr.odysseyplus.site
+DOMAIN,jp.odysseyplus.site
 
 # > 流媒体Exflux服务器
 DOMAIN,line.emby.men
@@ -67,15 +62,6 @@ DOMAIN,emby.run
 DOMAIN,pub1.emby.wtf
 DOMAIN,pub2.emby.wtf
 DOMAIN,pub3.emby.wtf
-DOMAIN,pub1back.emby.wtf
-DOMAIN,pub2back.emby.wtf
-DOMAIN,pub3back.emby.wtf
-DOMAIN,pub1ha2.emby.wtf
-DOMAIN,pub2ha2.emby.wtf
-DOMAIN,pub3ha2.emby.wtf
-DOMAIN,pub1cm1.emby.wtf
-DOMAIN,pub2cm1.emby.wtf
-DOMAIN,pub3cm1.emby.wtf
 
 # > 流媒体WaveCloud服务器
 DOMAIN,embyserver.ga
@@ -90,27 +76,24 @@ DOMAIN,public.kyarucloud.moe
 #DOMAIN,synemby.filmind.club
 
 # > 流媒体猫熊影业服务器
-DOMAIN,embyclub.com
-DOMAIN,azsgp.embyclub.com
-DOMAIN,az-hk.embyclub.com
+DOMAIN,emby.kim
+DOMAIN,ha.emby.kim
 
 # > 流媒体佛系公益影业服务器
 DOMAIN,emby2021.kozow.com
 
 # > 流媒体Misty影业服务器
-DOMAIN,emby.ssky.me
-DOMAIN,emby-jp.ssky.me
 DOMAIN,aaa.ax 
-DOMAIN,emby-ru.ssky.me 
-DOMAIN,emby-us.ssky.me 
 
 # > 自建
-DOMAIN,sp.embyplus.club
 DOMAIN,bb.emby.cc
-DOMAIN,www.embyplus.top
-DOMAIN,cm.emby.studio
 DOMAIN,cf.embyplus.club
-DOMAIN,emby.gfw.cm
 
 # > 卡戎
 DOMAIN,play.charontv.com 
+
+# > POLO
+DOMAIN,cu.poloemby.xyz
+DOMAIN,zf.poloemby.xyz
+DOMAIN,us.poloemby.xyz
+DOMAIN,emby.ssky.me
