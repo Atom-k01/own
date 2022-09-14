@@ -86,8 +86,9 @@ DOMAIN,emby2021.kozow.com
 DOMAIN,aaa.ax 
 
 # > 自建
-DOMAIN,bb.emby.cc
-DOMAIN,cf.embyplus.club
+DOMAIN,py.embyplus.club
+DOMAIN,py2.embyplus.club
+DOMAIN,v.emby.cc
 
 # > 卡戎
 DOMAIN,play.charontv.com 
