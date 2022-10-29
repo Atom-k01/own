@@ -83,7 +83,8 @@ DOMAIN,ha.emby.kim
 DOMAIN,emby2021.kozow.com
 
 # > 流媒体Misty影业服务器
-DOMAIN,aaa.ax 
+DOMAIN,aaa.ax
+DOMAIN,hk.aaa.ax
 
 # > 自建
 DOMAIN,py.embyplus.club
@@ -95,6 +96,9 @@ DOMAIN,play.charontv.com
 
 # > POLO
 DOMAIN,cu.poloemby.xyz
-DOMAIN,zf.poloemby.xyz
-DOMAIN,us.poloemby.xyz
-DOMAIN,emby.ssky.me
+DOMAIN,nlz.poloemby.xyz
+DOMAIN,sfzf2.poloemby.xyz
+
+#MisakaF
+DOMAIN,cf.misakaf.org
+DOMAIN,4837.misakaf.org
