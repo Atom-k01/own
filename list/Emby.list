@@ -51,6 +51,7 @@ DOMAIN,cf3.misakaf.org
 DOMAIN,4837.misakaf.org
 DOMAIN,embyvip.misakaf.org
 DOMAIN,hk.misakaf.org
+DOMAIN,cdn.misakaf.org
 
 #bsetemby
 DOMAIN,emby.gdsuite.top
@@ -63,3 +64,12 @@ DOMAIN,play.charontv.com
 
 #CC
 DOMAIN,cc.ccemby.tk
+
+#纸片人
+DOMAIN,embyplus.org 
+
+#infinity
+DOMAIN,infinityfly.top
+
+#MJJ
+DOMAIN,de.mjjemby.org
