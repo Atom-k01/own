@@ -39,10 +39,8 @@ DOMAIN,py2.embyplus.club
 DOMAIN,v.emby.cc
 
 # > POLO
-DOMAIN,jp.pololine.ml
-DOMAIN,cmi.pololine.ml
-DOMAIN,happy.poloemby.xyz
-DOMAIN,sp.pololine.ml
+DOMAIN,emby.pololine.ml
+DOMAIN,cf.pololine.ml
 
 #MisakaF
 DOMAIN,cf.misakaf.org
@@ -54,10 +52,10 @@ DOMAIN,hk.misakaf.org
 DOMAIN,cdn.misakaf.org
 
 #bsetemby
-DOMAIN,emby.gdsuite.top
+DOMAIN,cn2-emby.gdsuite.top
 
 #Bluesea
-DOMAIN,emby-pub1.blueseacdn.com
+DOMAIN,Bluesea.ddns.me
 
 #卡戎
 DOMAIN,play.charontv.com
@@ -73,3 +71,12 @@ DOMAIN,infinityfly.top
 
 #MJJ
 DOMAIN,de.mjjemby.org
+
+#佛系
+DOMAIN,1.4545.cf
+
+#AC
+DOMAIN,play.acemby.org
+
+#plex
+DOMAIN,plex45.1percent.cloud
