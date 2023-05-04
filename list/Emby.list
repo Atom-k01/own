@@ -40,20 +40,11 @@ DOMAIN,v.emby.cc
 DOMAIN,c.emby.cc
 
 # > POLO
-DOMAIN,emby.pololine.ml
-DOMAIN,cf.pololine.ml
-
-#MisakaF
-DOMAIN,cf.misakaf.org
-DOMAIN,cf2.misakaf.org
-DOMAIN,cf3.misakaf.org
-DOMAIN,4837.misakaf.org
-DOMAIN,embyvip.misakaf.org
-DOMAIN,hk.misakaf.org
-DOMAIN,cdn.misakaf.org
+DOMAIN,sf.poloemby.xyz
+DOMAIN,cfs.poloemby.xyz
 
 #bsetemby
-DOMAIN,cn2-emby.gdsuite.top
+DOMAIN,emby.gdsuite.top
 
 #Bluesea
 DOMAIN,Bluesea.ddns.me
