@@ -15,5 +15,5 @@ DOMAIN-SUFFIX,totheglory.im
 DOMAIN-SUFFIX,ptchina.org
 DOMAIN-SUFFIX,hdtime.org
 DOMAIN-SUFFIX,hdatmos.club
-IP-CIDR,62.210.209.0/24,no-resolve
-IP-CIDR,195.154.174.0/24,no-resolve
+IP-CIDR,62.210.209.0/24
+IP-CIDR,195.154.174.0/24
