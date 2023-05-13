@@ -41,13 +41,14 @@ DOMAIN,c.emby.cc
 
 # > POLO
 DOMAIN,sf.poloemby.xyz
-DOMAIN,cfs.poloemby.xyz
+DOMAIN,scf.poloemby.xyz
+DOMAIN,auto.dnslink.ml
 
 #bsetemby
 DOMAIN,emby.gdsuite.top
 
 #Bluesea
-DOMAIN,Bluesea.ddns.me
+DOMAIN,emby.xiaoyi.one
 
 #卡戎
 DOMAIN,play.charontv.com
