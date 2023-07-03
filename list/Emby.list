@@ -84,10 +84,11 @@ DOMAIN,embyvip.misakaf.org
 DOMAIN,789.123456.al
 
 #S大
-media.sasonzh.xyz
+DOMAIN,media.sasonzh.xyz
+IP-CIDR,85.10.205.0/24,no-resolve
 
 #han
-hanus.emby.life
+DOMAIN,hanus.emby.life
 
 #垃圾阴影
-cf.emby.ml
+DOMAIN,cf.emby.ml
