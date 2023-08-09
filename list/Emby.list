@@ -34,21 +34,20 @@ DOMAIN,1.4545.cf
 DOMAIN,misty.ltd
 
 # > 自建
-DOMAIN,py.embyplus.club
-DOMAIN,py2.embyplus.club
 DOMAIN,v.emby.cc
 DOMAIN,c.emby.cc
+DOMAIN,b.emby.cc
 
 # > POLO
 DOMAIN,sf.poloemby.xyz
 DOMAIN,scf.poloemby.xyz
-DOMAIN,auto.dnslink.ml
+DOMAIN,auto.polodns.xyz
 
 #bsetemby
 DOMAIN,emby.gdsuite.top
 
 #Bluesea
-DOMAIN,zdb.xiaoyi.one
+DOMAIN,public.emby.ws
 
 #卡戎
 DOMAIN,play.charontv.com
@@ -88,7 +87,7 @@ DOMAIN,media.sasonzh.xyz
 IP-CIDR,85.10.205.0/24,no-resolve
 
 #han
-DOMAIN,hanus.emby.life
+DOMAIN,de.ddns.me
 
 #垃圾阴影
 DOMAIN,cf.emby.ml
