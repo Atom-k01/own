@@ -1,7 +1,7 @@
 # 强制翻墙
 
 DOMAIN-SUFFIX,kp.m-team.cc
-DOMAIN-SUFFIX,chdbits.co
+DOMAIN-SUFFIX,ptchdbits.co
 DOMAIN-SUFFIX,ptchdbits.co
 DOMAIN-SUFFIX,hdchina.org
 DOMAIN-SUFFIX,ourbits.club
@@ -20,3 +20,6 @@ IP-CIDR,62.210.209.0/24
 IP-CIDR,195.154.174.0/24
 USER-AGENT,FinalShell*
 DOMAIN-KEYWORD,finalshell
+DOMAIN-SUFFIX,op1.embyplus.club
+DOMAIN-SUFFIX,op3.embyplus.club
+DOMAIN-SUFFIX,opv.embyplus.club
