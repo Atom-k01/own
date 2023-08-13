@@ -20,9 +20,9 @@ IP-CIDR,62.210.209.0/24
 IP-CIDR,195.154.174.0/24
 USER-AGENT,FinalShell*
 DOMAIN-KEYWORD,finalshell
-DOMAIN-SUFFIX,qb1.embyplus.club
-DOMAIN-SUFFIX,qb3.embyplus.club
-DOMAIN-SUFFIX,qbv.embyplus.club
+DOMAIN-SUFFIX,op1.embyplus.club
+DOMAIN-SUFFIX,op3.embyplus.club
+DOMAIN-SUFFIX,opv.embyplus.club
 DOMAIN-SUFFIX,cloudflare.com
 DOMAIN-SUFFIX,nt1.embyplus.club
 DOMAIN-SUFFIX,nt3.embyplus.club
