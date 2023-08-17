@@ -90,4 +90,7 @@ IP-CIDR,85.10.205.0/24,no-resolve
 DOMAIN,de.ddns.me
 
 #垃圾阴影
-DOMAIN,cf.emby.ml
+DOMAIN,cf.xmsl.org
+DOMAIN,ccf.xmsl.org
+DOMAIN,11.loseremby.org
+
