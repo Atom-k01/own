@@ -1,4 +1,4 @@
 # 直连列表
 
 DOMAIN-SUFFIX,wzrb.net
-DOMAIN-SUFFIX,115.emby.cc
+IP-CIDR,110.42.98.0/24,no-resolve
