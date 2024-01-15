@@ -22,16 +22,6 @@ DOMAIN-SUFFIX,ianon.app
 DOMAIN-SUFFIX,unleashthecartoons.world
 DOMAIN-SUFFIX,morethantv.me
 
-USER-AGENT,FinalShell*
-DOMAIN-KEYWORD,finalshell
-
-DOMAIN-SUFFIX,op1.embyplus.club
-DOMAIN-SUFFIX,op3.embyplus.club
-DOMAIN-SUFFIX,opv.embyplus.club
-DOMAIN-SUFFIX,cloudflare.com
-DOMAIN-SUFFIX,nt1.embyplus.club
-DOMAIN-SUFFIX,nt3.embyplus.club
-DOMAIN-SUFFIX,ntv.embyplus.club
 
 DOMAIN-SUFFIX,themoviedb.org
 DOMAIN-SUFFIX,tmdb.org
