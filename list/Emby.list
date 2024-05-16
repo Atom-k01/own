@@ -4,24 +4,23 @@ DOMAIN,cf2.jmsooo.com
 DOMAIN,cf1.jmsooo.com
 
 # > 流媒体pornemby服务器
-DOMAIN,s.ii00.cc 
-DOMAIN,pornemby.club
+DOMAIN,sptv.ii00.cc
+DOMAIN,wptv.ii00.cc
+DOMAIN,sgtv.ii00.cc
+DOMAIN,wgtv.ii00.cc
 
 # > 流媒体Odyssey服务器
 DOMAIN,cf.odysseyplus.site
 DOMAIN,us.odysseyplus.site
 DOMAIN,kr.odysseyplus.site
 DOMAIN,jp.odysseyplus.site
-DOMAIN,jp2.odysseyplus.site
+DOMAIN,v.odysseyplus.site
 
 # > 流媒体终点站服务器
 DOMAIN,pub1.emby.wtf
 DOMAIN,pub2.emby.wtf
 DOMAIN,pub3.emby.wtf
 DOMAIN,pub4.emby.wtf
-
-# > 流媒体深蓝影业服务器
-#DOMAIN,hd1.slyk.net
 
 # > 流媒体猫熊影业服务器
 DOMAIN,emby.kim
@@ -33,27 +32,14 @@ DOMAIN,1.4545.cf
 # > 流媒体Misty影业服务器
 DOMAIN,misty.ltd
 
-# > 自建
-DOMAIN,v.emby.cc
-DOMAIN,c.emby.cc
-DOMAIN,b.emby.cc
-
 # > POLO
 DOMAIN,sf.poloemby.xyz
 DOMAIN,scf.poloemby.xyz
 DOMAIN,auto.polodns.xyz
-
-#bsetemby
-DOMAIN,emby.gdsuite.top
-
-#Bluesea
-DOMAIN,public.emby.ws
-
-#卡戎
-DOMAIN,play.charontv.com
+DOMAIN,kr.poloemby.xyz
 
 #CC
-DOMAIN,cc.ccemby.tk
+DOMAIN,cc.coemn.com
 
 #纸片人
 DOMAIN,embyplus.org 
@@ -71,25 +57,15 @@ DOMAIN,play.acemby.org
 DOMAIN,plex45.1percent.cloud
 DOMAIN,plex104.1percent.cloud
 
-#studyfun
-DOMAIN,cdn.studyfun.live
-DOMAIN,stream.studyfun.live
-DOMAIN,cdn1.studyfun.live
-DOMAIN,stream1.studyfun.live
-DOMAIN,cf.studyfun.live
-
 #misakaf
 DOMAIN,embyvip.misakaf.org 
 DOMAIN,789.123456.al
 
-#S大
-DOMAIN,emby.sason.tech
-IP-CIDR,85.10.205.0/24,no-resolve
-
 #han
 DOMAIN,de.ddns.me
+DOMAIN,stark.ddns.me
 
-#垃圾阴影
+#垃圾影音
 DOMAIN,cf.xmsl.org
 DOMAIN,11.loseremby.org
 
