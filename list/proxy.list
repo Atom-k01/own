@@ -22,6 +22,7 @@ DOMAIN-SUFFIX,ianon.app
 DOMAIN-SUFFIX,unleashthecartoons.world
 DOMAIN-SUFFIX,morethantv.me
 
+#other
 DOMAIN-SUFFIX,themoviedb.org
 DOMAIN-SUFFIX,tmdb.org
 DOMAIN-SUFFIX,tmdb.nastool.org
@@ -73,3 +74,19 @@ IP-CIDR,199.96.56.0/21
 IP-CIDR,202.160.128.0/22
 IP-CIDR,209.237.192.0/19
 IP-CIDR,69.195.160.0/19
+
+#parallels
+download.parallels.com
+update.parallels.com
+desktop.parallels.com
+download.parallels.com.cdn.cloudflare.net
+update.parallels.com.cdn.cloudflare.net
+desktop.parallels.com.cdn.cloudflare.net
+www.parallels.cn
+www.parallels.com
+reportus.parallels.com
+parallels.com
+parallels.cn
+pax-manager.myparallels.com
+myparallels.com
+my.parallels.com
