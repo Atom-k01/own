@@ -93,3 +93,6 @@ DOMAIN-SUFFIX,pax-manager.myparallels.com
 DOMAIN-SUFFIX,myparallels.com
 DOMAIN-SUFFIX,my.parallels.com
 DOMAIN-SUFFIX,static.parallels.com
+
+#plex
+DOMAIN,plex.tv
