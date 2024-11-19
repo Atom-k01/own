@@ -95,4 +95,4 @@ DOMAIN-SUFFIX,my.parallels.com
 DOMAIN-SUFFIX,static.parallels.com
 
 #plex
-DOMAIN,plex.tv
+DOMAIN-SUFFIX,plex.tv
