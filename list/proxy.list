@@ -96,3 +96,12 @@ DOMAIN-SUFFIX,static.parallels.com
 
 #plex
 DOMAIN-SUFFIX,plex.tv
+DOMAIN-SUFFIX,plex.direct
+DOMAIN-SUFFIX,metadata-static.plex.tv
+DOMAIN-SUFFIX,metadata.provider.plex.tv
+DOMAIN-SUFFIX,images.plex.tv
+DOMAIN-SUFFIX,mbz.plex.tv
+DOMAIN-SUFFIX,acoustid.plex.tv
+DOMAIN-SUFFIX,lyrics.plex.tv
+DOMAIN-SUFFIX,analytics.plex.tv
+DOMAIN-SUFFIX,meta.plex.tv
