@@ -106,3 +106,6 @@ DOMAIN-SUFFIX,acoustid.plex.tv
 DOMAIN-SUFFIX,lyrics.plex.tv
 DOMAIN-SUFFIX,analytics.plex.tv
 DOMAIN-SUFFIX,meta.plex.tv
+
+#other
+DOMAIN-SUFFIX,hdhive.online
