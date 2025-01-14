@@ -114,6 +114,9 @@ DOMAIN-SUFFIX,mbz.plex.tv
 DOMAIN-SUFFIX,acoustid.plex.tv
 DOMAIN-SUFFIX,lyrics.plex.tv
 DOMAIN-SUFFIX,analytics.plex.tv
+
+#其他
+DOMAIN-SUFFIX,z-library.sk
 DOMAIN-SUFFIX,meta.plex.tv
 
 #other
