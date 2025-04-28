@@ -24,40 +24,64 @@ jobs:
           node << 'EOF'
           const fs = require('fs');
           const path = require('path');
+          const crypto = require('crypto');
 
-          // 定位到 embyicon 文件夹
+          function fileHash(filePath) {
+            if (!fs.existsSync(filePath)) return null;
+            const data = fs.readFileSync(filePath);
+            return crypto.createHash('sha1').update(data).digest('hex');
+          }
+
           const ICON_DIR = path.join(process.cwd(), 'embyicon');
+          const OUTPUT_PATH = path.join(ICON_DIR, 'embyicon.json');
+
           if (!fs.existsSync(ICON_DIR)) {
             console.error('Error: embyicon directory not found at', ICON_DIR);
             process.exit(1);
           }
 
-          // 读取图片文件
+          // 读取并按字母（不区分大小写）排序图片文件
           const files = fs.readdirSync(ICON_DIR)
-            .filter(f => /\.(png|jpe?g|svg)$/i.test(f));
+            .filter(f => /\.(png|jpe?g|svg)$/i.test(f))
+            .sort((a, b) => a.toLowerCase().localeCompare(b.toLowerCase()));
+
+          // 取当前分支名
+          const branch = process.env.GITHUB_REF_NAME || 'main';
 
           // 构建列表
           const list = files.map(name => ({
             name,
-            url: `https://raw.githubusercontent.com/${process.env.GITHUB_REPOSITORY}/main/embyicon/${encodeURIComponent(name)}`
+            url: `https://raw.githubusercontent.com/${process.env.GITHUB_REPOSITORY}/${branch}/embyicon/${encodeURIComponent(name)}`
           }));
 
-          // 包装为对象形式：{ "icons": [...] }
-          const output = { icons: list };
+          // 包装为对象形式，增加 name 和 description 字段
+          const output = {
+            name: "embyicon",
+            description: "Atom",
+            icons: list
+          };
 
-          // 写入 embyicon.json
-          const outputPath = path.join(ICON_DIR, 'embyicon.json');
-          fs.writeFileSync(
-            outputPath,
-            JSON.stringify(output, null, 2),
-            'utf-8'
-          );
-          console.log('✔ embyicon.json generated at', outputPath);
+          // 生成新内容
+          const newContent = JSON.stringify(output, null, 2) + "\n";
+
+          // 检查是否有变化
+          const oldHash = fileHash(OUTPUT_PATH);
+          const newHash = crypto.createHash('sha1').update(newContent).digest('hex');
+
+          if (oldHash === newHash) {
+            console.log('✅ No changes detected. Skip writing.');
+            process.exit(0);
+          }
+
+          // 写入新文件
+          fs.writeFileSync(OUTPUT_PATH, newContent, 'utf-8');
+          console.log('✔ embyicon.json updated.');
           EOF
 
-      - name: Commit and push embyicon.json
+      - name: Commit and push if changed
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: "ci: 🔄 自动更新 embyicon/embyicon.json"
           file_pattern: "embyicon/embyicon.json"
           branch: "main"
+          skip_dirty_check: false
