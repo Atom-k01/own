@@ -25,7 +25,13 @@ jobs:
           const fs = require('fs');
           const path = require('path');
 
-          const ICON_DIR = path.join(__dirname, '..', 'embyicon');
+          // Use current working directory to locate embyicon folder
+          const ICON_DIR = path.join(process.cwd(), 'embyicon');
+          if (!fs.existsSync(ICON_DIR)) {
+            console.error('Error: embyicon directory not found at', ICON_DIR);
+            process.exit(1);
+          }
+
           const files = fs.readdirSync(ICON_DIR)
             .filter(f => /\.(png|jpe?g|svg)$/i.test(f));
 
@@ -34,12 +40,13 @@ jobs:
             url: `https://raw.githubusercontent.com/${process.env.GITHUB_REPOSITORY}/main/embyicon/${encodeURIComponent(name)}`
           }));
 
+          const outputPath = path.join(ICON_DIR, 'embyicon.json');
           fs.writeFileSync(
-            path.join(ICON_DIR, 'embyicon.json'),
+            outputPath,
             JSON.stringify(list, null, 2),
             'utf-8'
           );
-          console.log('✔ embyicon.json generated:', list);
+          console.log('✔ embyicon.json generated at', outputPath);
           EOF
 
       - name: Commit and push embyicon.json
