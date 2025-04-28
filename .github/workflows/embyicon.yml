@@ -1,0 +1,44 @@
+# 文件路径：.github/workflows/embyicon.yml
+
+name: 自动更新 embyicon/embyicon.json
+
+on:
+  push:
+    paths:
+      - 'embyicon/**'
+      - '.github/workflows/embyicon.yml'
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: 安装 Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '16'
+
+    - name: 生成 embyicon.json
+      run: |
+        const fs = require('fs');
+        const path = require('path');
+        const ICON_DIR = path.join(__dirname, '..', 'embyicon');
+        const files = fs.readdirSync(ICON_DIR).filter(f => /\.(png|jpe?g|svg)$/i.test(f));
+        const list = files.map(name => ({
+          name,
+          url: `https://raw.githubusercontent.com/${process.env.GITHUB_REPOSITORY}/main/embyicon/${encodeURIComponent(name)}`
+        }));
+        fs.writeFileSync(
+          path.join(ICON_DIR, 'embyicon.json'),
+          JSON.stringify(list, null, 2),
+          'utf-8'
+        );
+
+    - name: 提交并推送 embyicon.json
+      uses: stefanzweifel/git-auto-commit-action@v4
+      with:
+        commit_message: "ci: 🔄 自动更新 embyicon/embyicon.json"
+        file_pattern: "embyicon/embyicon.json"
+        branch: "main"
