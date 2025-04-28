@@ -56,9 +56,9 @@ jobs:
 
           // 包装为对象形式，增加 name 和 description 字段
           const output = {
-            name: "embyicon",
-            description: "Atom",
-            icons: list
+            name: "EmbyIcon",     
+            description: "By Atom",
+            icons: list  
           };
 
           // 生成新内容
