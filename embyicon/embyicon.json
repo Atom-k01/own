@@ -1,4 +1,6 @@
 {
+  "name": "embyicon",
+  "description": "Atom",
   "icons": [
     {
       "name": "Han.png",
