@@ -25,25 +25,31 @@ jobs:
           const fs = require('fs');
           const path = require('path');
 
-          // Use current working directory to locate embyicon folder
+          // 定位到 embyicon 文件夹
           const ICON_DIR = path.join(process.cwd(), 'embyicon');
           if (!fs.existsSync(ICON_DIR)) {
             console.error('Error: embyicon directory not found at', ICON_DIR);
             process.exit(1);
           }
 
+          // 读取图片文件
           const files = fs.readdirSync(ICON_DIR)
             .filter(f => /\.(png|jpe?g|svg)$/i.test(f));
 
+          // 构建列表
           const list = files.map(name => ({
             name,
             url: `https://raw.githubusercontent.com/${process.env.GITHUB_REPOSITORY}/main/embyicon/${encodeURIComponent(name)}`
           }));
 
+          // 包装为对象形式：{ "icons": [...] }
+          const output = { icons: list };
+
+          // 写入 embyicon.json
           const outputPath = path.join(ICON_DIR, 'embyicon.json');
           fs.writeFileSync(
             outputPath,
-            JSON.stringify(list, null, 2),
+            JSON.stringify(output, null, 2),
             'utf-8'
           );
           console.log('✔ embyicon.json generated at', outputPath);
