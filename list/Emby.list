@@ -31,6 +31,7 @@ DOMAIN,stark.ddns.me
 DOMAIN,stark.emby857.xyz
 DOMAIN,us.emby857.xyz
 IP-CIDR,154.40.54.28/32,no-resolve
+IP-CIDR,5.9.136.121/32,no-resolve
 
 #未响
 DOMAIN,music.mefun.org
